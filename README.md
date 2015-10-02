@@ -20,13 +20,22 @@ Other things to edit are the title and tagline of the site and a description of 
 ### Adding content
 Content for the Blackdoc theme always begins with some YAML code at the top of the page, seperated from the Markdown content by two horizontal lines. This YAML frontmatter can contain anything, but two things you want to define are `layout` and `title`. Blackdoc will use both of these to generate pages and styles. 
 
+#### Layout
 The layout tag is important, because Jekyll understands pages and posts and treats them differently. In the Blackdoc theme, Jekyll will take any Markdown document at the root of the directory which has `layout: page` in the YAML frontmatter and add it to the sidebar, creating a static page from the document. This is the recommended way to lay out course content, as rather than organising by lecture, you can organise by lecture content. Then, when you want to study the use of Sound in HCI, there's a Sound page in the sidebar to click on. 
 
 However in addition to pages, we can also have blog posts. Jekyll is blog-centric, and will collect any Markdown in the _posts/ directory as a blog article. If you want that blog post to be laid out correctly, use `layout: post` and use the document title YYYY-MM-DD-TITLE-GOES-HERE.md and the post will get added to the blog with the title specified in the YAML `title: ` tag, and the date in the filename as the publishing date. 
 
+#### Tying it all together
 The title is fairly obvious; whatever the title of the page or post is, add it after the `title: ` tag. So, valid YAML frontmatter for a page on Sound would look like this: 
+
 > ---
 > title: Sound
 > layout: page
 > ---
 
+Neat, huh? 
+For examples of using Markdown and Jekyll forntmatter, check out the [Guidelines page](http://gu-cs-notes.github.io/Guidelines). 
+
+
+## Getting the site out there
+*TO WRITE*
