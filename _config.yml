@@ -7,15 +7,14 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            BlackDoc
-tagline:          Black Theme for Jekyll
-description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
-url:              https://github.com/karloespiritu/blackdoc
-baseurl:          /
+title:            #SHORT COURSE TAG
+tagline:          #FULL COURSE NAME
+description:      #SHORT COURSE DESCRIPTION
+url:              https://github.com/gu-cs-notes/YOUR-REPO-HERE
+baseurl:          /YOUR-REPO-HERE				# Note! This should be the repo title preceded by a forward slash, but not followed by one! For example, the baseurl for AI4 is "/AI4"
 
 author:
-  name:           'Karlo Espiritu'
-  url:            https://twitter.com/karloespiritu
+  name:           'Tom Wallis'
 
 paginate:         5
 
@@ -23,4 +22,4 @@ paginate:         5
 version:          1.0.0
 
 github:
-  repo:           https://github.com/karloespiritu/blackdoc
+  repo:           https://github.com/gu-cs-notes/blackdoc
