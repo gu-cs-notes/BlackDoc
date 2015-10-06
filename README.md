@@ -29,10 +29,11 @@ However in addition to pages, we can also have blog posts. Jekyll is blog-centri
 The title is fairly obvious; whatever the title of the page or post is, add it after the `title: ` tag. So, valid YAML frontmatter for a page on Sound would look like this: 
 
 > ---
-
+>
 > title: Sound
+>
 > layout: page
-
+>
 > ---
 
 Neat, huh? 
